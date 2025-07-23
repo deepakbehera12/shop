@@ -1,0 +1,28 @@
+@media screen and (max-width: 991px){
+    header{
+        nav ul li,.icon{
+            display: none;
+            overflow: hidden;
+            
+        }
+    }
+   .nav-toggle {
+    display:block;
+    margin-right: 30px;
+    font-size:xx-large;
+   }
+
+  .holyday{
+    margin: 10px 0 10px 0;
+   }
+
+   main{
+    height: 300px;
+   
+    grid-template-columns:12fr;
+   }
+
+   .shear{
+    grid-template-columns: 6fr 6fr;
+   }
+}

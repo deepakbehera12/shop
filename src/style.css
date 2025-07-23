@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    @import url ('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+}
+
+    
+
+header{
+    background-color: rgb(181, 179, 179);
+    color:black ;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width:100vmax;
+  
+    
+
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.brand{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+ nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    font-size:25px;
+}
+nav ul li:hover{
+    background-color:black ;
+    color:antiquewhite ;
+    border-radius: 5px;
+}
+.icon span{
+     
+     font-size: larger 20px;
+}
+
+.holyday{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+main .img-1{
+    background-image: url("../public/images/okk.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+main .img-2{
+    background-image: url("../public/images/ok.jpg");
+    height: 600px;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+}
+main .img-3{
+    background-image: url("../public/images/wallpaper\ ok.png");
+    height: 600px;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     
+}    
+
+    
+
+main h2{
+    color: white;
+    text-shadow: 2px 2px 2px lightgray;
+    font-weight: bold;
+    text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+margin-top: 280px;
+    
+}
+
+.banner-b{
+    padding: 5px;
+    border: none;
+    margin: 5px;
+    
+    margin-top: 140px;
+    margin-left: 200px;
+    font-weight: bold;
+    border-radius: 3px;
+    opacity:0.9;
+    width: 140px;
+    height: 50px;
+
+}
+.banner-b:hover{
+    opacity:0.8;
+ color: blueviolet;
+}
+
+.banner-b span{
+    position: relative;
+
+}
+.banner-b span:hover{
+    position:absolute;
+    
+
+}
+
+section{
+    height: 5500px;
+    background-color: aliceblue;
+}
+.all-mean{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.shear{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.one{
+    display:flex;
+    padding:20px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.one span{
+    margin-right: 10px;
+    color: orangered;
+}
+
+.new-brand{
+   text-align: center;
+   justify-content: center;
+   margin-top: 70px;
+   margin-bottom: 30px;
+   padding: 20px;
+}
+
+h5{
+    color: gray;
+    margin-top: 30px;
+
+}
+#p-one{
+    padding:0 430px;
+    margin-top: 30px;
+}
+.box-one{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    height:700px;
+}
+
+.content-one{
+    background-image: url("../public/images/kk.png");
+    background-size: cover;
+    color: aliceblue;
+   text-align: center;
+
+}
+.content-one:hover{
+    margin-right: 5px;
+    
+}
+
+.content-one h2{
+    margin-top: 290px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.content-one h2+button{
+    font-weight: bold; 
+    font-size: 18px;
+    margin-top: 30px;
+}
+.content-one h2+button~span:hover{
+    margin-left: 2px;
+}
+
+
+.content-two{
+    background-image: url("../public/images/okk.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    position: relative;
+}
+.content-two:hover{
+    margin-right: 5px;
+}
+
+.only{
+    position: absolute;
+    background-color: brown;
+    color: azure;
+    border-radius: 100px;
+    text-align: center;
+    height: 100px;
+    width:100px;
+    margin-left: 800px;
+    margin-top: -370px;
+    }
+.omm h2{
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.omm,h2 button{
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 290px;
+    margin-right: 380px;
+    text-shadow: 2px 2px 2px lightgrey;
+    
+}
+.omm button{
+    font-weight: 30pxpx;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+.only h4{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.only h4,p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* new */
+.box-two{
+    display: grid;
+    grid-template-columns:  8fr 4fr;
+    height:700px;
+    margin-top: 40px;
+}
+.content-three{
+    background-image: url("../public/images/mm.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.content-three h3{
+    font-size: 40px;
+    margin-left: 170px;
+    margin-top: 260px;
+    
+    
+}
+
+.content-three button{
+    margin-bottom: 210px;
+    margin-left: 220px;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+
+.content-foure{
+    background-image: url("../public/images/wallpaper\ ok.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+
+
+.content-foure h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 260px;
+    color: aliceblue;
+    
+    
+}
+
+.content-foure button{
+    margin-bottom: 210px;
+    margin-left: 170px;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
+    
+}
+/* new shel */
+.new-part{
+    background-image: url("../public/images/ll.jpg");
+    background-size: cover;
+    height: 700px;
+    margin-top: 70px;
+    
+}
+
+.child-part h2{
+    
+    margin-left: 860px;
+    padding-top: 190px;
+   
+}
+.child-part button{
+    margin-left: 860px;
+    padding: auto;
+    width: 150px;
+    height: 60px;
+}
+
+/* new */
+.seller-bay h6{
+      text-align: center;
+      color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 90px;
+}
+.seller-bay h1{
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+/* card */
+
+
+
+/*seller  */
+#new-hed{
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+
+/* nav butten */
+.butten-one{
+    
+    
+   padding: 10px 630px;
+    margin-top: 30px;
+    display:flex;
+   
+    
+}
+
+.butten-one button{
+    text-align: center;
+}
+.butten-one button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+   
+}
+
+.butten-one button a:hover{
+    
+    
+    
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+
+#number{
+    font-size:30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+#number:hover{
+    font-size:30px;
+    text-decoration: underline;
+}
+
+.all-card{
+    margin-top: 50px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(29, 29, 29);
+    height: 670px;
+    color: white;
+}
+.f-head{
+    text-align: center;
+    
+}
+
+
+.f-head h3{
+    
+    padding-top: 40px;
+    font-size: 29px;
+}
+
+.sub{
+    margin-top: 50px;
+    margin-left: 540px;
+}
+.sub,button{
+font-weight: bold;
+
+color: black;
+width: 100px;
+}
+
+.main-foot{
+  display: grid;
+  grid-template-columns:4fr 2fr 2fr 2fr 2fr;
+  margin: 70px;
+
+}
+/* list */
+
+#footer-brand{
+margin-top: 30px;
+    
+}
+
+.foot-one ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.foot-one li{
+   
+   
+    margin-bottom: 12px;
+
+}
+.foot-one li:first-child{
+ font-size:25px;
+ font-weight: bold;
+}
+/* sirial images */
+.images-no{
+    display: flex;
+    gap: 8px;
+    margin: 60px 40px;
+    
+}
+#subcribe:hover{
+    background-color:orangered;
+}
+/* all brand */
+.brand-name{
+    justify-content: space-around;
+    color: lightgray;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+/* new */
+.brand-one h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top:60px;
+}
+.brand-one h2~p{
+    text-align: center;
+    font-size: 17px;
+    margin-top:30px;
+}
+
+
+
+/*  new*/
+.footer-last{
+    margin:20px;
+    display:flex;
+
+    justify-content: space-between;
+}
